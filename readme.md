@@ -1,1 +1,1 @@
-You can find the demo at https://michaeltrinh7.github.io/portfolio/index.html
+You can find the demo at https://michaeltrinh7.github.io/portfolio/index.html, and you can find the article about this project at https://michaeltrinh7.wordpress.com/2024/03/15/introducing-my-new-project-portfolio/
