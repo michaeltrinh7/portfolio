@@ -47,6 +47,7 @@ export const aboutMeInfo = {
     detailDescription2: "I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.",
     contactLabel: "Contact",
     contactHref: "mailto:quochoa15@hotmail.com",
+    skillsLabel: "My Skills",
     skills: ["HTML", "CSS", "Javascript", "React", "Stelve", "VueJS", "Angular", ".NET", "NodeJS", "Python"]
 }
 
@@ -78,7 +79,7 @@ export const projectsInfo = {
                 "A portfolio to show my skills and projects",
             getImageSrc: () => require("./assets/images/project2.png"),
             projectDetail: "Case study",
-            projectLink: "https://michaeltrinh7.wordpress.com/2024/03/15/todo-listbuilding-a-simple-to-do-list-app-with-react-choosing-the-right-state-management-approachtodo-list/"
+            projectLink: "https://michaeltrinh7.wordpress.com/2024/03/15/introducing-my-new-project-portfolio/"
         }
     ]
 }

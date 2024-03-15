@@ -1,5 +1,5 @@
 
-export default function AboutMe({ skills, sectionName, contactLabel, contactHref, sectionDescription, detailHeader, detailDescription1, detailDescription2 }) {
+export default function AboutMe({ skills, skillsLabel, sectionName, contactLabel, contactHref, sectionDescription, detailHeader, detailDescription1, detailDescription2 }) {
 
     return (<section id="about" className="about sec-pad">
         <div className="main-container">
@@ -23,7 +23,7 @@ export default function AboutMe({ skills, sectionName, contactLabel, contactHref
                     <a href={contactHref} className="btn btn--med btn--theme dynamicBgClr">{contactLabel}</a>
                 </div>
                 <div className="about__content-skills">
-                    <h3 className="about__content-title">My Skills</h3>
+                    <h3 className="about__content-title">{skillsLabel}</h3>
                     <div className="skills">
                         {skills.map((skill) => (
                             <div className="skills__skill" key={skill}>{skill}</div>
