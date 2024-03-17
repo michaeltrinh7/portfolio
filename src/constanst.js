@@ -48,7 +48,7 @@ export const aboutMeInfo = {
     contactLabel: "Contact",
     contactHref: "mailto:quochoa15@hotmail.com",
     skillsLabel: "My Skills",
-    skills: ["HTML", "CSS", "Javascript", "React", "Stelve", "VueJS", "Angular", ".NET", "NodeJS", "Python"]
+    skills: ["HTML", "CSS", "Javascript", "React", "Stelve", "VueJS", "Angular", "Vite", "TypeScript", "tailwind", "shadcn/ui ", "lucid-react", ".NET", "NodeJS", "Python"]
 }
 
 export const landingInfo = {
@@ -67,19 +67,73 @@ export const projectsInfo = {
     projects: [
         {
             title: "Todo list",
-            description:
-                "A to-do list application built with React. This app helps you keep track of your tasks efficiently.",
+            description:`
+                    <p>A to-do list application built with React. This app helps you keep track of your tasks efficiently.</p>
+                    <h2>Technologies:</h2>
+                    <ul>
+                        <li>React</li>
+                        <li>Share state between components using ContextAPI</li>
+                        <li>HTML and CSS</li>
+                        <li>Responsive layout</li>
+                    </ul>
+                    `,
             getImageSrc: () => require("./assets/images/project1.png"),
             projectDetail: "Case study",
             projectLink: "https://michaeltrinh7.wordpress.com/2024/03/15/todo-listbuilding-a-simple-to-do-list-app-with-react-choosing-the-right-state-management-approachtodo-list/"
         },
         {
             title: "Portfolio",
-            description:
-                "A portfolio to show my skills and projects",
+            description:`
+                <p>A portfolio to show my skills and projects</p>
+                <h2>Technologies:</h2>
+                <ul>
+                    <li>React</li>
+                    <li>HTML and CSS</li>
+                    <li>Responsive layout</li>
+                </ul>
+                `,
             getImageSrc: () => require("./assets/images/project2.png"),
             projectDetail: "Case study",
             projectLink: "https://michaeltrinh7.wordpress.com/2024/03/15/introducing-my-new-project-portfolio/"
+        },
+        {
+            title: "Weather Application",
+            description:
+                `<h1>Project Description:</h1>
+                <p>The Weather Application is a modern web application that provides users with comprehensive weather information
+                    for cities around the world. It offers a user-friendly interface with intuitive components for easy navigation
+                    and access to weather data.</p>
+                <br/>
+
+                <h2>Key Features:</h2>
+                <ul>
+                    <li><strong>City Search:</strong> Quickly search for weather information for any desired location.</li>
+                    <li><strong>Detailed Forecast:</strong> Get detailed weather forecasts including temperature, humidity,
+                        wind speed, and more.</li>
+                    <li><strong>Visual Representation:</strong> View weather conditions visually with accompanying icons.</li>
+                    <li><strong>Hourly Forecast:</strong> Display the weather forecast for the next 6 hours, including time,
+                        weather conditions, and temperature.</li>
+                    <li><strong>7-Day Outlook:</strong> Provide a detailed weather outlook for the next 7 days, including
+                        current weather, temperature, precipitation, and wind speed.</li>
+                </ul>
+                <br/>
+
+                <h2>Technologies Used:</h2>        
+                <ul>
+                    <li><strong>Vite:</strong> A modern build tool for efficient development.</li>
+                    <li><strong>React and TypeScript:</strong> Building a robust and type-safe web application.</li>
+                    <li><strong>OpenWeather API:</strong> Fetching accurate and up-to-date weather data.</li>
+                    <li><strong>axios:</strong> Handling API requests seamlessly.</li>
+                    <li><strong>luxon:</strong> Simplifying date and time manipulation.</li>
+                    <li><strong>tailwind:</strong> Styling the application with a utility-first CSS framework.</li>
+                    <li><strong>shadcn/ui and lucid-react:</strong> Enhancing user interface and user experience with UI component
+                        libraries.</li>
+                </ul>
+                <br/>
+                <p>This project combines modern technologies with a sleek design to deliver an intuitive and feature-rich weather application for users to stay informed about weather conditions worldwide.</p>`,
+            getImageSrc: () => require("./assets/images/WeatherApp.png"),
+            projectDetail: "Case study",
+            projectLink: "https://michaeltrinh7.wordpress.com/2024/03/17/introducing-the-weather-application-your-ultimate-weather-companion-%f0%9f%8c%a6%ef%b8%8f%e2%98%80%ef%b8%8f%f0%9f%8c%a7%ef%b8%8f/"
         }
     ]
 }

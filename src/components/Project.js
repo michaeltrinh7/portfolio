@@ -8,8 +8,7 @@ const Project = ({ title, description, getImageSrc, projectDetail, projectLink }
       </div>
       <div className="projects__row-content">
         <h3 className="projects__row-content-title">{title}</h3>
-        <p className="projects__row-content-desc">
-          {description}
+        <p className="projects__row-content-desc"  dangerouslySetInnerHTML={{ __html: description}}>
         </p>
         <a href={projectLink} className="btn btn--med btn--theme dynamicBgClr" target="_blank">{projectDetail}</a>
       </div>
